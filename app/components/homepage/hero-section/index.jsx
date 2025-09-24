@@ -6,6 +6,7 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
+import CodeBlock from "./CodeBlock";
 
 function HeroSection() {
   return (
@@ -89,7 +90,7 @@ function HeroSection() {
           </div>
 
           {/* Developer Code Block */}
-          <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+          {/* <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div>
                 <span className="mr-2 text-pink-500">class</span>
@@ -109,14 +110,13 @@ function HeroSection() {
               <div className="ml-8">
                 <span className="text-white">self.name</span>{" "}
                 <span className="text-orange-400">=</span>{" "}
-                <span className="text-gray-400">"Varun Shukla"</span>
+                <span className="text-gray-400">{`"Varun Shukla"`}</span>
               </div>
               <div className="ml-8">
                 <span className="text-white">self.skills</span>{" "}
                 <span className="text-orange-400">=</span>{" "}
                 <span className="text-gray-400">
-                  ["React.js", "Next.js", "TypeScript", "JavaScript", "Redux",
-                  "Tailwind CSS", "Bootstrap", "Material UI"]
+                  {`["React.js", "Next.js", "TypeScript", "JavaScript", "Redux", "Tailwind CSS", "Bootstrap", "Material UI"]`}
                 </span>
               </div>
               <div className="ml-8">
@@ -156,25 +156,25 @@ function HeroSection() {
               </div>
               <div className="ml-8">
                 <span className="text-green-400">name=</span>{" "}
-                <span className="text-orange-400">"Varun Shukla"</span>,
+                <span className="text-orange-400">{`"Varun Shukla"`}</span>,
               </div>
               <div className="ml-8">
                 <span className="text-green-400">skills=</span>{" "}
                 <span className="text-gray-400">
-                  ["React.js", "Next.js", "TypeScript", "JavaScript", "Redux",
-                  "Tailwind CSS", "Bootstrap", "Material UI"]
+                  {`["React.js", "Next.js", "TypeScript", "JavaScript", "Redux", "Tailwind CSS", "Bootstrap", "Material UI"]`}
                 </span>
               </div>
               <div className="ml-4 text-cyan-400">)</div>
 
               <div className="font-mono text-sm bg-gray-900 rounded-xl p-4 shadow-md mt-4">
                 <span className="text-cyan-400">print</span>
-                <span className="text-white">(f"Hireable:</span>
+                <span className="text-white">(f{`"Hireable:`}</span>
                 <span className="text-amber-300">{`{coder.hireable()}`}</span>
-                <span className="text-white">)</span>
+                <span className="text-white">{`"`})</span>
               </div>
             </code>
-          </div>
+          </div> */}
+          <CodeBlock />
         </div>
       </div>
     </section>
