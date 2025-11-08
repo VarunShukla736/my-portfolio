@@ -15,5 +15,31 @@ export const personalData = {
   leetcode: "",
   devUsername: "varunshukla736",
   resume:
-    "https://drive.google.com/file/d/1KbS4BBk6ESkqqXmjfe7uy4jbSgJbfu1N/view?usp=sharing"
+    "https://drive.google.com/file/d/1KbS4BBk6ESkqqXmjfe7uy4jbSgJbfu1N/view?usp=sharing",
+  blogs: [
+    {
+      id: 1,
+      title: "Mastering React Hooks: A Comprehensive Guide",
+      description: "Learn how to effectively use React Hooks to simplify your components and manage state in functional components. This guide covers useState, useEffect, useContext, and custom hooks with practical examples.",
+      cover_image: "https://images.unsplash.com/photo-1633356122544-f134324b6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      published_at: "2023-10-15T00:00:00Z",
+      tag_list: ["react", "hooks", "frontend", "javascript"],
+      url: "#",
+      public_reactions_count: 10,
+      reading_time_minutes: 8,
+      comments_count: 5
+    },
+    {
+      id: 2,
+      title: "Building Accessible Web Applications with React and ARIA",
+      description: "A deep dive into creating accessible web applications using React and WAI-ARIA. Learn best practices, common patterns, and tools to ensure your applications are usable by everyone, including people with disabilities.",
+      cover_image: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      published_at: "2023-11-01T00:00:00Z",
+      tag_list: ["react", "accessibility", "aria", "frontend", "web-development"],
+      url: "#",
+      public_reactions_count: 8,
+      reading_time_minutes: 10,
+      comments_count: 7
+    }
+  ]
 }
